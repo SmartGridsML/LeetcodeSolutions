@@ -7,6 +7,14 @@ Given strings sequence and word, return the maximum k-repeating value of word in
 
 
 def maxRepeating(sequence: str, word: str) -> int:
+    """
+    Args:
+        sequence: The first parameter.
+        str: The second parameter.
+
+    Returns:
+        int representing max repeating string
+    """
     if(word not in sequence):
         return 0
     return sequence.count(word)

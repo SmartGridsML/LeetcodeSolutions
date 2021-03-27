@@ -5,7 +5,14 @@ that belong to different strings, which means: swap s1[i] and s2[j].
 Return the minimum number of swaps required to make s1 and s2 equal, or return -1 if impossible.
 """
 def minimumSwap(s1: str, s2: str) -> int:
-    
+    """
+    Args:
+        str1: The first parameter.
+        str2: The second parameter.
+
+    Returns:
+        int representing min swaps required
+    """
     xy_count = 0
     yx_count = 0
     for i in range(len(s1)):
