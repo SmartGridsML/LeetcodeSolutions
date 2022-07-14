@@ -1,4 +1,5 @@
 # Return the minimum number of operations needed to make nums strictly increasing.
+from typing import List
 
 def minOperations(nums: List[int]) -> int: 
     if len(nums) == 1:
